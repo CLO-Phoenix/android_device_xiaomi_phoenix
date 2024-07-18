@@ -38,7 +38,9 @@ PRODUCT_COPY_FILES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    libkeymaster_messages.vendor:64
+    libkeymaster_messages.vendor:64 \
+    liblzma.vendor \
+    liblzma.vendor:64
 
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.fingerprint.type=side \
