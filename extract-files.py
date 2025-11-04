@@ -20,7 +20,13 @@ from extract_utils.main import (
 
 namespace_imports = [
     'hardware/xiaomi',
-    'vendor/qcom/opensource/display',
+    'vendor/qcom/common/vendor/adreno-5xx',
+    'vendor/qcom/common/vendor/adreno-r',
+    'vendor/qcom/common/vendor/adreno-s',
+    'vendor/qcom/common/vendor/adreno-t',
+    'vendor/qcom/common/vendor/adreno-u',
+    'vendor/qcom/common/vendor/media/5.4',
+    'vendor/qcom/common/vendor/perf',
     'vendor/xiaomi/sm6150-common',
 ]
 
