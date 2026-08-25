@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Include Rom config
-include device/xiaomi/phoenix/rom_config.mk
-
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_phoenix.mk
 
