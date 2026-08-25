@@ -13,9 +13,6 @@ PRODUCT_ENFORCE_PRODUCT_PARTITION_INTERFACE := true
 # Inherit from sm6150-common
 $(call inherit-product, device/xiaomi/sm6150-common/sm6150.mk)
 
-# Inherit from rom config
-include device/xiaomi/phoenix/rom_config.mk
-
 # API level, the device has been commercially launched on
 PRODUCT_SHIPPING_API_LEVEL := 29
 BOARD_SHIPPING_API_LEVEL := 29
@@ -33,11 +30,6 @@ $(call inherit-product, packages/apps/GameBar/gamebar.mk)
 # Init scripts
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.phoenix.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.phoenix.rc
-
-ifeq ($(ENABLE_BOOT_LOGGER),true)
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/rootdir/etc/init.log.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.log.rc
-endif
 
 # Input
 PRODUCT_COPY_FILES += \
