@@ -36,11 +36,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.phoenix.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.phoenix.rc
 
-# Fingerprint
-PRODUCT_PACKAGES += \
-    libkeymaster_messages.vendor:64 \
-    liblzma.vendor \
-    liblzma.vendor:64
 
 PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.fingerprint.type=side \
