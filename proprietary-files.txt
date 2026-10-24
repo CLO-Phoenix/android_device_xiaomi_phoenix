@@ -60,11 +60,6 @@ vendor/lib/libqtigef.so
 
 # Audio extensions
 vendor/lib/btaudio_offload_if.so
-vendor/lib/liba2dpoffload.so
-vendor/lib/libhdmiedid.so
-vendor/lib/libhfp.so
-vendor/lib/libsndmonitor.so
-vendor/lib/libspkrprot.so
 
 # Camera
 vendor/etc/camera/CFR_para_UW_src1.bin
